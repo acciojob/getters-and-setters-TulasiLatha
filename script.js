@@ -4,6 +4,9 @@ class Person {
 		this.name=name;
 		this.age=age;
 	}
+	const user=new Person(
+		"tulasi","22")
+	)
 	getName(){
 		return "This user name"+this.name;
 	}
