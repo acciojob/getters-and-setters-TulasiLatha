@@ -4,6 +4,7 @@ class Person {
 		this.name=name;
 		this.age=age;
 	}
+	const Person=win.Person;
 	const Person=new Person("John",30);
 
 	getName(){
@@ -18,7 +19,9 @@ class Person {
 
 class Student extends Person {
 	study(){
-		console.log(this.name+"is studying");
+		const Student=win.Student;
+		const student=new Student("John",30);
+		console.log('${student.name}is studying');
 	}
 	
 }
