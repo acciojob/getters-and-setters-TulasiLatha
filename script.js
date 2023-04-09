@@ -4,7 +4,7 @@ class Person {
 		this.name=name;
 		this.age=age;
 	}
-	
+	const Person=new Person("John",30);
 
 	getName(){
 		return "This user name"+this.name;
@@ -12,7 +12,8 @@ class Person {
 	setAge(){
 		this.age=newAge;
 	}
-	const Person=win.Person;
+	
+	
 }
 
 class Student extends Person {
