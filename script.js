@@ -12,6 +12,7 @@ class Person {
 	setAge(){
 		this.age=newAge;
 	}
+	const Person=win.Person;
 }
 
 class Student extends Person {
